@@ -2,8 +2,6 @@
 const Post = require("./Post");
 const User = require("./User");
 const Comment = require("./Comment");
-const { post } = require("../controllers/home-routes");
-const { builtinModules, Module } = require("module");
 
 //create associations
 User.hasMany(Post, {

@@ -15,8 +15,7 @@ const sess = {
   cookie: {
     // session expires in two hours
     expires: 7200000
-    // // test session expires in 30 seconds
-    // expires: 30000
+   
   },
   resave: false,
   saveUninitialized: true,
@@ -34,7 +33,7 @@ app.set('view engine', 'handlebars');
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, '/public')));
 
 app.use(require('./controllers/'));
 

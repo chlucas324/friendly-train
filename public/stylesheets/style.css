@@ -1,0 +1,149 @@
+/* main */
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    flex-direction: column;
+    display: flex;
+}
+
+header {
+
+        border-bottom: 1px solid #ffe2b3;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px;      
+}
+
+header h1 {
+    font-family: 'Volkhov', serif;
+    font-size: 55px;
+    padding: 10px;
+}
+
+header a {
+    color: #227c9d !important;
+}
+
+header nav {
+    padding-right: 15px
+}
+
+header nav a {
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+#login-button{
+    font-size: 25px;
+    background-color:  #fe6d73;
+    border-radius: 12%;
+    padding: 5px;
+}
+
+div.title h2 {
+    font-weight: bold;
+    padding-left: 10px;
+    color: #293665;
+}
+
+div.title h4 {
+    font-size: 22px;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: #227c9d;
+}
+
+div.title span {
+    font-size: 14px;
+    padding-left: 20px;
+    color: #227c9d;
+}
+
+div.title p {
+    font-size: 18px;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: #227c9d;
+}
+
+.meta a {
+    padding-left: 20px;
+    color: #fe6d73;
+}
+
+li::marker{
+    color: #293665;
+    font-size: 22px;
+} 
+/*login form */
+form {
+    padding: 25px;
+    font-size: 15px;
+}
+
+input {
+    padding-right: 30px;
+}
+
+form label {
+    padding: 5px;
+    display: inline-block;
+}
+
+/* comments */
+.comments {
+    padding: 25px;
+}
+
+.add-comment-btn {
+    padding: 10px;
+}
+/*posts*/
+button {
+    font-size: 25px;
+    background-color:  #fe6d73;
+    border-radius: 12%;
+    padding: 5px;
+    border-color: #293665;
+}
+
+.post-title {
+    padding-left: 25px;
+    color: #293665;
+}
+
+.new-form-post {
+    padding-left: 25px; 
+}
+
+.post-title-div {
+    padding-bottom: 10px;
+}
+
+.post-title-div label {
+    font-size: 20px;
+}
+
+input#post-title {
+    padding-right: 80px;
+}
+
+/*footer*/
+footer {
+    border-top: 1px solid #ffe2b3;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-size: 15px;
+  }

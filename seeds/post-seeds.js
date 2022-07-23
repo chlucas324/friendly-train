@@ -10,7 +10,7 @@ const postdata = [
   {
     title: 'et accusamus',
     post_text: 'At vero eos et accusamus et iusto odio dignissimos.',
-    user_id: 4
+    user_id: 2
   },
   {
     title: 'Quis autem',
@@ -45,7 +45,7 @@ const postdata = [
   {
     title: 'Vestibulum ante',
     post_text: 'Cras tincidunt, mauris quis commodo.',
-    user_id: 3
+    user_id: 4
   },
   {
     title: 'Cras mi pede',
@@ -55,12 +55,12 @@ const postdata = [
   {
     title: 'Vestibulum ante',
     post_text: 'Etiam accumsan tincidunt consectetur.',
-    user_id: 7
+    user_id: 5
   },
   {
     title: 'Tincidunt eget, tempus vel, pede.',
     post_text: 'Cras tincidunt, mauris augue sagittis magna ex sed elit.',
-    user_id: 7
+    user_id: 2
   }
 ];
 
